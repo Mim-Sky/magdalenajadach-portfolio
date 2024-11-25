@@ -13,13 +13,17 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Magdalena Jadach",
+  title: "Magdalena",
   description: "Personal portfolio",
+  icons: {
+    icon: "/favicon.ICO",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
